@@ -1,6 +1,6 @@
 # FinalProject
 ## Topic
-Being able to classify if someone has Diabetes
+Due to the Pandemic changing how people view their health would the number of people with Diabetes change.
 
 ## Reason for Selected Topic 
 Aging population in Canada, stress on healthcare increasing, need for faster care increasing.  Ontario’s Health system is and has been under immense strain since the start of the pandemic as demand for care exploded, with wait times increasing exponentially. Our Project model provides a solution to the diagnosis of diabetes incindences within a reasonable time frame.
