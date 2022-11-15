@@ -1,7 +1,14 @@
 # FinalProject
-Reason for Selected Topic: Aging population in Canada, stress on healthcare increasing, need for faster care increasing.  Ontario’s Health system is and has been under immense strain since the start of the pandemic as demand for care exploded, with wait times increasing exponentially. Our Project model provides a solution to the diagnosis of diabetes incindences within a reasonable time frame. 
+## Topic
+Being able to classify if someone has Diabetes
 
-Description of source of data: WHO, National Institute of Diabetes and Digestive and Kidney Diseases. 
+## Reason for Selected Topic 
+Aging population in Canada, stress on healthcare increasing, need for faster care increasing.  Ontario’s Health system is and has been under immense strain since the start of the pandemic as demand for care exploded, with wait times increasing exponentially. Our Project model provides a solution to the diagnosis of diabetes incindences within a reasonable time frame.
+
+Due to the Pandemic, we saw many people change how they take care of their health, as restaurants and fast food places were not allowed to have people in the restaurants since many governments enacted social distance policies. But even with the social distancing protocols, people could still "eat out" as most places used delivery apps or had a delivery service. So we hope to see if the number of people with diabetes will change because of how the Pandemic has changed how we view our health.
+
+## Description of source of data
+WHO, National Institute of Diabetes and Digestive and Kidney Diseases. 
 
 Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 * Pregnancies: Number of times pregnant
@@ -13,7 +20,10 @@ Several constraints were placed on the selection of these instances from a large
 * DiabetesPedigreeFunction: Diabetes pedigree function
 * Age: Age (years)
 * Outcome: Class variable (0 or 1)
-Questions we hope to answer:
+
+
+## Questions we hope to answer:
+Has the total number of people with diabetes gone up or down due to the pandemic.
 
 Machine Learning Model: Take in data from database 
 and output labels for input data 
@@ -22,3 +32,6 @@ Supervised model - classification -similar to module 18 for credit risk
 Features:Pregnancies: predictors.get_dummies()
 
 Target: [‘Outcome’]
+
+## Description of Communitcation Protocol
+
