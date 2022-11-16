@@ -7,7 +7,7 @@ Due to the Pandemic, we saw many people change how they take care of their healt
 
 ## Description of source of data
 The datasets come from the National Health and Nutrition Examination Survey. https://www.cdc.gov/Nchs/Nhanes/about_nhanes.htm
-We were able to get three datasets from a diabetes study that they had, with each dataset having the following variables.
+We were able to get three datasets from a diabetes study that they had, with each dataset having the following variables (data1_patient_info.csv, data2_patient_tests.csv, data3_patients_results.csv).
 
 * Examinations dataset, which contains:
   * Blood pressure
