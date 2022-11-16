@@ -3,34 +3,107 @@
 Due to the Pandemic changing how people view their health would the number of people with Diabetes change.
 
 ## Reason for Selected Topic 
-Aging population in Canada, stress on healthcare increasing, need for faster care increasing.  Ontario’s Health system is and has been under immense strain since the start of the pandemic as demand for care exploded, with wait times increasing exponentially. Our Project model provides a solution to the diagnosis of diabetes incindences within a reasonable time frame.
-
 Due to the Pandemic, we saw many people change how they take care of their health, as restaurants and fast food places were not allowed to have people in the restaurants since many governments enacted social distance policies. But even with the social distancing protocols, people could still "eat out" as most places used delivery apps or had a delivery service. So we hope to see if the number of people with diabetes will change because of how the Pandemic has changed how we view our health.
 
 ## Description of source of data
-WHO, National Institute of Diabetes and Digestive and Kidney Diseases. 
+The datasets come from the National Health and Nutrition Examination Survey. https://www.cdc.gov/Nchs/Nhanes/about_nhanes.htm
+We were able to get three datasets from a diabetes study that they had, with each dataset having the following variables.
 
-Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
-
-* Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-* BloodPressure: Diastolic blood pressure (mm Hg)
-* Insulin: 2-Hour serum insulin (mu U/ml)
-* BMI: Body mass index (weight in kg/(height in m)^2)
-* DiabetesPedigreeFunction: Diabetes pedigree function
-* Age: Age (years)
-* Diabetes: Class variable (0 or 1)
-
+* Examinations dataset, which contains:
+  * Blood pressure
+  * Body measures
+  * Muscle strength - grip test
+  * Oral health - dentition
+  * Taste & smell
+  
+* Laboratory dataset
+  * Albumin & Creatinine - Urine
+  * Apolipoprotein B
+  * Blood Lead, Cadmium, Total Mercury, Selenium, and Manganese
+  * Blood mercury: inorganic, ethyl and methyl
+  * Cholesterol - HDL
+  * Cholesterol - LDL & Triglycerides
+  * Cholesterol - Total
+  * Complete Blood Count with 5-part Differential - Whole Blood
+  * Copper, Selenium & Zinc - Serum
+  * Fasting Questionnaire
+  * Fluoride - Plasma
+  * Fluoride - Water
+  * Glycohemoglobin
+  * Hepatitis A
+  * Hepatitis B Surface Antibody
+  * Hepatitis B: core antibody, surface antigen, and Hepatitis D antibody
+  * Hepatitis C RNA (HCV-RNA) and Hepatitis C Genotype
+  * Hepatitis E: IgG & IgM Antibodies
+  * Herpes Simplex Virus Type-1 & Type-2
+  * HIV Antibody Test
+  * Human Papillomavirus (HPV) - Oral Rinse
+  * Human Papillomavirus (HPV) DNA - Vaginal Swab: Roche Cobas & Roche Linear Array
+  * Human Papillomavirus (HPV) DNA Results from Penile Swab Samples: Roche Linear Array
+  * Insulin
+  * Iodine - Urine
+  * Perchlorate, Nitrate & Thiocyanate - Urine
+  * Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC)
+  * Personal Care and Consumer Product Chemicals and Metabolites
+  * Phthalates and Plasticizers Metabolites - Urine
+  * Plasma Fasting Glucose
+  * Polycyclic Aromatic Hydrocarbons (PAH) - Urine
+  * Standard Biochemistry Profile
+  * Tissue Transglutaminase Assay (IgA-TTG) & IgA Endomyseal Antibody Assay (IgA EMA)
+  * Trichomonas - Urine
+  * Two-hour Oral Glucose Tolerance Test
+  * Urinary Chlamydia
+  * Urinary Mercury
+  * Urinary Speciated Arsenics
+  * Urinary Total Arsenic
+  * Urine Flow Rate
+  * Urine Metals
+  * Urine Pregnancy Test
+  * Vitamin B12
+ 
+* Questionnaire dataset
+  * Acculturation
+  * Alcohol Use
+  * Blood Pressure & Cholesterol
+  * Cardiovascular Health
+  * Consumer Behavior
+  * Current Health Status
+  * Dermatology
+  * Diabetes
+  * Diet Behavior & Nutrition
+  * Disability
+  * Drug Use
+  * Early Childhood
+  * Food Security
+  * Health Insurance
+  * Hepatitis
+  * Hospital Utilization & Access to Care
+  * Housing Characteristics
+  * Immunization
+  * Income
+  * Medical Conditions
+  * Mental Health - Depression Screener
+  * Occupation
+  * Oral Health
+  * Osteoporosis
+  * Pesticide Use
+  * Physical Activity
+  * Physical Functioning
+  * Preventive Aspirin Use
+  * Reproductive Health
+  * Sexual Behavior
+  * Sleep Disorders
+  * Smoking - Cigarette Use
+  * Smoking - Household Smokers
+  * Smoking - Recent Tobacco Use
+  * Smoking - Secondhand Smoke Exposure
+  * Taste & Smell
+  * Weight History
+  * Weight History - Youth
 
 ## Questions we hope to answer:
-Has the total number of people with diabetes gone up or down due to the pandemic.
-
-Machine Learning Model: Take in data from database 
-and output labels for input data 
-Supervised model - classification -similar to module 18 for credit risk
-
-Features:Pregnancies: predictors.get_dummies()
-
-Target: [‘Diabetes’]
+* What are the variables that are key identifiers in determining if someone has diabetes? 
+* Has the total number of people with diabetes changed due to the pandemic?
 
 ## Description of Communitcation Protocol
 To ensure we are able to communicate with each other when we have ideas, any problems , or for any other reason we created a slack group chat. We will also meet at least once a week outside of class and more if needed. There is also a shared google folder where we can upload any resources that could be useful, and it has a document where we track all of our ideas and it allows us to go back and review each others ideas.
