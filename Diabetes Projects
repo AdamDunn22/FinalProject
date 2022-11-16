@@ -1,0 +1,53 @@
+-- Drop exisiting versions of the database
+DROP TABLE IF EXISTS patient_info;
+DROP TABLE IF EXISTS patient_tests;
+DROP TABLE IF EXISTS patient_results;
+
+-- Create patient info table
+CREATE TABLE patient_info (
+    personID INT PRIMARY KEY NOT NULL, -- PK
+    age INT NOT NULL,
+    sexID varchar(100) NOT NULL, -- FK
+    height DECIMAL(4, 1) NOT NULL,
+    weight DECIMAL(4, 1) NOT NULL
+);
+
+-- Create patient test table
+CREATE TABLE patient_tests (
+    personID INT PRIMARY KEY NOT NULL, -- PK
+    BMI DECIMAL NOT NULL,
+    SBP INT NOT NULL,
+    DBP INT NOT NULL,
+    FPG DECIMAL NOT NULL,
+    Cholesterol DECIMAL NOT NULL,
+    Triglyceride DECIMAL NOT NULL,
+    HDL DECIMAL NOT NULL,
+    LDL DECIMAL NOT NULL,
+    ALT DECIMAL NOT NULL,
+    AST DECIMAL NOT NULL,
+    BUN DECIMAL NOT NULL,
+    CCR DECIMAL NOT NULL,
+    FPG_finalvisit DECIMAL(4, 2) NOT NULL
+);
+
+-- Create patient results table
+CREATE TABLE patient_results (
+    personID INT PRIMARY KEY NOT NULL, -- PK
+    diabetes varchar NOT NULL,
+    smokerID varchar NOT NULL,
+    drinkerID varchar NOT NULL,
+    famhistID varchar NOT NULL
+);
+
+
+SELECT * FROM patient_info
+SELECT * FROM patient_tests
+SELECT * FROM patient_results
+
+
+SELECT age, sexID, height, weight, diabetes, smokerID, drinkerID, famhistID, BMI, Cholesterol, FPG_finalvisit
+FROM patient_info
+LEFT JOIN patient_results
+ON patient_info.personID=patient_results.personID
+LEFT JOIN patient_tests
+ON patient_info.personID=patient_tests.personID
