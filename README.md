@@ -9,97 +9,33 @@ Due to the Pandemic, we saw many people change how they take care of their healt
 The datasets come from the National Health and Nutrition Examination Survey. https://www.cdc.gov/Nchs/Nhanes/about_nhanes.htm
 We were able to get three datasets from a diabetes study that they had, with each dataset having the following variables (data1_patient_info.csv, data2_patient_tests.csv, data3_patients_results.csv).
 
-* Examinations dataset, which contains:
-  * Blood pressure
-  * Body measures
-  * Muscle strength - grip test
-  * Oral health - dentition
-  * Taste & smell
+* Patient Info dataset, which contains:
+  * personID INT PRIMARY KEY NOT NULL, -- PK
+  * age INT NOT NULL,
+  * sexID varchar(100) NOT NULL, -- FK
+  * height DECIMAL(4, 1) NOT NULL,
+  * weight 
   
-* Laboratory dataset
-  * Albumin & Creatinine - Urine
-  * Apolipoprotein B
-  * Blood Lead, Cadmium, Total Mercury, Selenium, and Manganese
-  * Blood mercury: inorganic, ethyl and methyl
-  * Cholesterol - HDL
-  * Cholesterol - LDL & Triglycerides
-  * Cholesterol - Total
-  * Complete Blood Count with 5-part Differential - Whole Blood
-  * Copper, Selenium & Zinc - Serum
-  * Fasting Questionnaire
-  * Fluoride - Plasma
-  * Fluoride - Water
-  * Glycohemoglobin
-  * Hepatitis A
-  * Hepatitis B Surface Antibody
-  * Hepatitis B: core antibody, surface antigen, and Hepatitis D antibody
-  * Hepatitis C RNA (HCV-RNA) and Hepatitis C Genotype
-  * Hepatitis E: IgG & IgM Antibodies
-  * Herpes Simplex Virus Type-1 & Type-2
-  * HIV Antibody Test
-  * Human Papillomavirus (HPV) - Oral Rinse
-  * Human Papillomavirus (HPV) DNA - Vaginal Swab: Roche Cobas & Roche Linear Array
-  * Human Papillomavirus (HPV) DNA Results from Penile Swab Samples: Roche Linear Array
-  * Insulin
-  * Iodine - Urine
-  * Perchlorate, Nitrate & Thiocyanate - Urine
-  * Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC)
-  * Personal Care and Consumer Product Chemicals and Metabolites
-  * Phthalates and Plasticizers Metabolites - Urine
-  * Plasma Fasting Glucose
-  * Polycyclic Aromatic Hydrocarbons (PAH) - Urine
-  * Standard Biochemistry Profile
-  * Tissue Transglutaminase Assay (IgA-TTG) & IgA Endomyseal Antibody Assay (IgA EMA)
-  * Trichomonas - Urine
-  * Two-hour Oral Glucose Tolerance Test
-  * Urinary Chlamydia
-  * Urinary Mercury
-  * Urinary Speciated Arsenics
-  * Urinary Total Arsenic
-  * Urine Flow Rate
-  * Urine Metals
-  * Urine Pregnancy Test
-  * Vitamin B12
+* patient_tests dataset
+  * BMI DECIMAL NOT NULL,
+  * SBP INT NOT NULL,
+  * DBP INT NOT NULL,
+  * FPG DECIMAL NOT NULL,
+  * Cholesterol DECIMAL NOT NULL,
+  * Triglyceride DECIMAL NOT NULL,
+  * HDL DECIMAL NOT NULL,
+  * LDL DECIMAL NOT NULL,
+  * ALT DECIMAL NOT NULL,
+  * AST DECIMAL NOT NULL,
+  * BUN DECIMAL NOT NULL,
+  * CCR DECIMAL NOT NULL,
+  * FPG_finalvisit DECIMAL
  
-* Questionnaire dataset
-  * Acculturation
-  * Alcohol Use
-  * Blood Pressure & Cholesterol
-  * Cardiovascular Health
-  * Consumer Behavior
-  * Current Health Status
-  * Dermatology
-  * Diabetes
-  * Diet Behavior & Nutrition
-  * Disability
-  * Drug Use
-  * Early Childhood
-  * Food Security
-  * Health Insurance
-  * Hepatitis
-  * Hospital Utilization & Access to Care
-  * Housing Characteristics
-  * Immunization
-  * Income
-  * Medical Conditions
-  * Mental Health - Depression Screener
-  * Occupation
-  * Oral Health
-  * Osteoporosis
-  * Pesticide Use
-  * Physical Activity
-  * Physical Functioning
-  * Preventive Aspirin Use
-  * Reproductive Health
-  * Sexual Behavior
-  * Sleep Disorders
-  * Smoking - Cigarette Use
-  * Smoking - Household Smokers
-  * Smoking - Recent Tobacco Use
-  * Smoking - Secondhand Smoke Exposure
-  * Taste & Smell
-  * Weight History
-  * Weight History - Youth
+* patient results dataset
+  * diabetes varchar NOT NULL,
+  * smokerID varchar NOT NULL,
+  * drinkerID varchar NOT NULL,
+  * famhistID varchar NOT NULL
 
 ## Questions we hope to answer:
 * What are the variables that are key identifiers in determining if someone has diabetes? 
