@@ -10,32 +10,32 @@ The datasets come from the National Health and Nutrition Examination Survey. htt
 We were able to get three datasets from a diabetes study that they had, with each dataset having the following variables (data1_patient_info.csv, data2_patient_tests.csv, data3_patients_results.csv).
 
 * Patient Info dataset, which contains:
-  * personID INT PRIMARY KEY NOT NULL, -- PK
-  * age INT NOT NULL,
-  * sexID varchar(100) NOT NULL, -- FK
-  * height DECIMAL(4, 1) NOT NULL,
+  * personID
+  * age
+  * sexID
+  * height 
   * weight 
   
 * patient_tests dataset
-  * BMI DECIMAL NOT NULL,
-  * SBP INT NOT NULL,
-  * DBP INT NOT NULL,
-  * FPG DECIMAL NOT NULL,
-  * Cholesterol DECIMAL NOT NULL,
-  * Triglyceride DECIMAL NOT NULL,
-  * HDL DECIMAL NOT NULL,
-  * LDL DECIMAL NOT NULL,
-  * ALT DECIMAL NOT NULL,
-  * AST DECIMAL NOT NULL,
-  * BUN DECIMAL NOT NULL,
-  * CCR DECIMAL NOT NULL,
-  * FPG_finalvisit DECIMAL
+  * BMI
+  * SBP 
+  * DBP 
+  * FPG
+  * Cholesterol
+  * Triglyceride
+  * HDL DECIMAL 
+  * LDL DECIMAL 
+  * ALT DECIMAL
+  * AST DECIMAL
+  * BUN DECIMAL
+  * CCR DECIMAL 
+  * FPG_finalvisit
  
 * patient results dataset
-  * diabetes varchar NOT NULL,
-  * smokerID varchar NOT NULL,
-  * drinkerID varchar NOT NULL,
-  * famhistID varchar NOT NULL
+  * diabetes
+  * smokerID 
+  * drinkerID 
+  * famhistID 
 
 ## Questions we hope to answer:
 * What are the variables that are key identifiers in determining if someone has diabetes? 
