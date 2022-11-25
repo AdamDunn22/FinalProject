@@ -1,6 +1,6 @@
 # FinalProject
 ## Topic
-Due to the Pandemic many people reviewd their life choices and how they take care of their bodies so because of that we want to see if the number of people with Diabetes has changed at all.
+Due to the Pandemic many people reviewd their life choices and how they take care of their bodies so because of that we want to see if the number of people with Diabetes has changed at all
 
 ## Reason for Selected Topic 
 Due to the Pandemic, we saw many people change how they take care of their health, as restaurants and fast food places were not allowed to have people in the restaurants since many governments enacted social distance policies. But even with the social distancing protocols, people could still "eat out" as most places used delivery apps or had a delivery service. So we hope to see if the number of people with diabetes will change because of how the Pandemic has changed how we view our health.
