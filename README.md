@@ -44,6 +44,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
 
 ## Project Outline:
 * Patient Health and Demographic data is collected, analyzed and cleaned up using Pandas and Numpy libraries. Using Sklearn packages we created a KNN supervised machine learning model to split data and predict which patients have type 2 diabetes. Data is seperated into features and taget variables (diabetes). Features include blood pressure, BMI, age, and other factors. A confusion matrix and accuracy score are given as part of the model. 
+* Data was converted to integers using replace function in pandas (e.g. non-smoker = 0, smoker = 1)
 * A dashboard is created using Javascript/HTML/CSS to display the data in an easy to view and simple format that also allows for users to interact with graphs/figures and select data. 
 
 ## Description of Communication Protocol
