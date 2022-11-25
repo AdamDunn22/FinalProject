@@ -16,7 +16,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
   * height 
   * weight 
   
-* patient_tests dataset
+* Patient_tests dataset
   * BMI
   * SBP 
   * DBP 
@@ -31,7 +31,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
   * CCR DECIMAL 
   * FPG_finalvisit
  
-* patient results dataset
+* Patient results dataset
   * diabetes
   * smokerID 
   * drinkerID 
