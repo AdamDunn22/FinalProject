@@ -1,4 +1,4 @@
-# FinalProject
+# Final Project
 ## Topic
 Due to the Pandemic many people reviewd their life choices and how they take care of their bodies so because of that we want to see if the number of people with Diabetes has changed at all.
 
