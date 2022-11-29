@@ -47,5 +47,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * Data was converted to integers using replace function in pandas (e.g. non-smoker = 0, smoker = 1)
 * A dashboard is created using Javascript/HTML/CSS to display the data in an easy to view and simple format that also allows for users to interact with graphs/figures and select data. 
 
+## Machine Learning Model
+
 ## Description of Communication Protocol
 To ensure we are able to communicate with each other when we have ideas, any problems , or for any other reason we created a slack group chat. We will also meet at least once a week outside of class and more if needed. There is also a shared google folder where we can upload any resources that could be useful, and it has a document where we track all of our ideas and it allows us to go back and review each others ideas.
