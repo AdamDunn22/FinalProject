@@ -48,8 +48,18 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * A dashboard is created using Javascript/HTML/CSS to display the data in an easy to view and simple format that also allows for users to interact with graphs/figures and select data. 
 
 ## Machine Learning Model
+### Data Preprocessing and Feature Selection
+* We started preprocessing our data to change string values to numeric values such as converting "Smoker" to 1 or "Non-smoker" to 0. 
+* We then selected features based on relation to the patients health (i.e. bmi, cholesterol) and demographics (i.e. age).
+* The model was trained using Sklearn train test split feature splitting the data into training and testing data. 
+* Currently our final calculated accuracy score was found to be 88% using the balanced SMOTE up from 71% using the undersampling cluster method.
+
+### Explanation of Model Choice
 * We started with a KNN model (K-Nearest Neighbors Algorithm), due to its use in classification problems which we thought would suit our model for diabetes predictions. 
 * Data is split using SKLearn train, test, split () package on desired and target features. 
+* Changed to a random forest classifer, after it showed to increase accuracy scores. 
+* Used Undersampling Cluster Centroids since our data was heavily skewed towards people without diabetes. 
+* Also tried SMOTEENN (both under and over sampling method) which further improved the model. 
 
 ## Description of Communication Protocol
 To ensure we are able to communicate with each other when we have ideas, any problems , or for any other reason we created a slack group chat. We will also meet at least once a week outside of class and more if needed. There is also a shared google folder where we can upload any resources that could be useful, and it has a document where we track all of our ideas and it allows us to go back and review each others ideas.
