@@ -48,6 +48,8 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * A dashboard is created using Javascript/HTML/CSS to display the data in an easy to view and simple format that also allows for users to interact with graphs/figures and select data. 
 
 ## Machine Learning Model
+* We started with a KNN model (K-Nearest Neighbors Algorithm), due to its use in classification problems which we thought would suit our model for diabetes predictions. 
+* Data is split using SKLearn train, test, split () package on desired and target features. 
 
 ## Description of Communication Protocol
 To ensure we are able to communicate with each other when we have ideas, any problems , or for any other reason we created a slack group chat. We will also meet at least once a week outside of class and more if needed. There is also a shared google folder where we can upload any resources that could be useful, and it has a document where we track all of our ideas and it allows us to go back and review each others ideas.
