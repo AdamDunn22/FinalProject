@@ -1,0 +1,94 @@
+#hero{
+ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/img1.png);
+    background-size: contain;
+    background-position: center;
+    position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+button{
+    padding: 8px 25px;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background: rgba(86,86,86,0.3);
+    backdrop-filter: blur(10);
+    left: 5;
+    top: 10;
+}
+.info{
+    width: 550px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info h1{
+    font-size: 60px;
+    letter-spacing: 10px;   
+}
+
+.info p{
+    color: #f0eef1;
+    font-size: 11px;
+    margin: 20px 0;
+    line-height: 18px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    background-color: grey;
+}
+
+#prev, #next{
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+
+
+}
+.preview{
+    display: flex;
+    margin: 0 40px;
+    align-items: center;
+}
+.preview img{
+    width: 40px;
+    margin: 0 10px;
+    opacity: 0.4;
+}
+.preview .active{
+    display: block;
+    border: 3px solid grey;
+    width: 100px;
+    opacity: 1;
+}
