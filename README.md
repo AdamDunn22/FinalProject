@@ -55,7 +55,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * Currently our final calculated accuracy score was found to be 88% using the balanced SMOTE up from 71% using the undersampling cluster method.
 
 ### Explanation of Model Choice
-* We started with a KNN model (K-Nearest Neighbors Algorithm), due to its use in classification problems which we thought would suit our model for diabetes predictions. 
+* We started with a KNN model (K-Nearest Neighbors Algorithm), but decided in the end to use a Balanced Random Forest Classifier due to its use in classification problems which we thought would suit our model for diabetes predictions and being able to work with biased data. 
 * Data is split using SKLearn train, test, split () package on desired and target features. 
 * Changed to a random forest classifer, after it showed to increase accuracy scores. 
 * Used Undersampling Cluster Centroids since our data was heavily skewed towards people without diabetes. 
