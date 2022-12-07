@@ -62,5 +62,8 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * Also tried SMOTEENN (both under and over sampling method) which further improved the model. 
 ### Accuracry Score Currently at 89%
 
+## Link to dashboard 
+https://public.tableau.com/app/profile/igwe.kelvin/viz/MLandDLmodelDashboardsx_final/Dashboard2?publish=yes
+
 ## Description of Communication Protocol
 To ensure we are able to communicate with each other when we have ideas, any problems , or for any other reason we created a slack group chat. We will also meet at least once a week outside of class and more if needed. There is also a shared google folder where we can upload any resources that could be useful, and it has a document where we track all of our ideas and it allows us to go back and review each others ideas.
