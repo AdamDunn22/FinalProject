@@ -60,7 +60,7 @@ We were able to get three datasets from a diabetes study that they had, with eac
 * Changed to a random forest classifer, after it showed to increase accuracy scores. 
 * Used Undersampling Cluster Centroids since our data was heavily skewed towards people without diabetes. 
 * Also tried SMOTEENN (both under and over sampling method) which further improved the model. 
-### Accuracry Score Currently at 89%
+### Accuracry Score Currently at 98.6%
 
 ## Link to dashboard 
 https://public.tableau.com/app/profile/igwe.kelvin/viz/MLandDLmodelDashboardsx_final/Dashboard2?publish=yes
