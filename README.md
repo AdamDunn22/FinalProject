@@ -1,4 +1,4 @@
 # Final Project
 
-ML MODEL for predicting and classifying diabetes cases from dataset. 
+ML MODEL for predicting and classifying diabetes cases from dataset . 
 
